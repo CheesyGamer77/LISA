@@ -4,6 +4,8 @@
   "description": "A REST-ful Local Image Search API written in TypeScript",
   "main": "dist/index.js",
   "scripts": {
+    "lint": "npx eslint ./src",
+    "dev": "npm run lint && tsc && node ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
