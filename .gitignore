@@ -39,3 +39,7 @@ dist/**/*
 
 # Ignore yarn.lock
 yarn.lock
+
+# Ignore indexed images
+static/**/*
+!static/**/*.md
